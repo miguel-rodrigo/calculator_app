@@ -8,9 +8,9 @@ interface ButtonProps {
 
 const Button = function(props: ButtonProps) {
   return (
-    <div className={"button " + props.type} onClick={props.action}>
+    <button className={"button " + props.type} onClick={props.action}>
       <span>{props.text}</span>
-    </div>
+    </button>
   )
 }
 
