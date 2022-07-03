@@ -1,3 +1,5 @@
+@use 'src/global';
+
 .button {
   display: flex;
   align-items: center;
@@ -9,6 +11,20 @@
   box-shadow: 0px 1px 2px 0px;
 
   span {
-    
+    font-size: 16px;
+    font-weight: 400;
   }
+}
+
+.light {
+  background-color: global.$button-light;
+}
+
+.dark {
+  background-color: global.$button-dark;
+}
+
+.main {
+  color: global.$text-inverse;
+  background-color: global.$button-main;
 }
