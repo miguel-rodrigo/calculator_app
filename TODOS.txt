@@ -1,0 +1,13 @@
+--- GLOBAL ---
+ -  Create global styles
+
+--- APP ---
+ -  Create layout of buttons
+ -  Add screen (even if just placeholder) to be able to visualize layout
+
+--- SCREEN ---
+ -  Create screen placeholder
+
+--- BUTTON ---
+ -  Make button use text from children, instead of using unnecesary props
+ -  Refresh how onClicks are passed to buttons 
