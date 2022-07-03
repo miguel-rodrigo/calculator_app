@@ -10,4 +10,4 @@
 
 --- BUTTON ---
  -  Make button use text from children, instead of using unnecesary props
- -  Refresh how onClicks are passed to buttons 
+ -  Refresh my knowledge: how onClicks are passed to buttons 
