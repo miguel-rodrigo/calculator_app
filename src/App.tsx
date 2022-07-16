@@ -1,10 +1,11 @@
 import './App.scss';
-import './Components/Button/Button'
 import Button from './Components/Button/Button';
+import Screen from './Components/Screen/Screen'
 
 function App() {
   return (
     <div className="App">
+      <Screen currentOp='+' currentNumbers='1234.56' />
       <div className="button-row">
         <Button text='%' type="dark" action={() => {}}/>
         <Button text='CE' type="dark" action={() => {}}/>
